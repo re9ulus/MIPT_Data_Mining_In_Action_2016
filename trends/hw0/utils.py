@@ -2,13 +2,7 @@ import os
 import gzip
 import numpy as np
 from scipy import io
-import cPickle as pickle
-
-import os
-import gzip
-import numpy as np
-from scipy import io
-import cPickle as pickle
+import _pickle as pickle
 
 
 def iterate_minibatches(inputs, targets, batchsize, shuffle=False):
